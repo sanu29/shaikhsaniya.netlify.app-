@@ -1,0 +1,32 @@
+.s-header{
+	background-color: #1bbc9b;
+	color: #dcf5f0;
+	font-family: sans-serif;
+
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}	
+
+body{
+	margin:0px;
+	background-color:#1bbc9b 
+}
+.text-margin{
+	margin:10px;
+}
+.s-pic{
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	box-shadow: 10px 10px 10px;
+	align-self: center;
+
+}
+.linkk{
+	margin: 0px;
+	border-radius: 70%;
+}

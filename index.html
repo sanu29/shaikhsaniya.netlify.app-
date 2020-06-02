@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Saniya Shaikh </title>
+		<meta content="width=device-width, initial-scale=1" name="viewport" charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/main.css"></link>
+			</head>
+	<body>
+		<div class="top1"></div>
+		
+		<header class="s-header">
+			<img class="s-pic" src="https://media-exp1.licdn.com/dms/image/C4E03AQGPcIgrZiAk2A/profile-displayphoto-shrink_400_400/0?e=1596672000&v=beta&t=bqFjbG_FfD7sXu1CwVppsxY_RlRtTV2beHHKY-NJ1_4" >	
+			<div class="text-margin ">
+				<h2>Hie, I am Saniya Shaikh.</h2>
+				<h2> A BCS Computer Science from Pune University.</h2> 
+				<h4>I live in Pune,India.</h4 >
+				<h3>To be graduate trainee @TCS.</h3>
+				<h3>SKills:
+					<table>
+					<tr><td>		
+						<li>C</li></td><td>
+						<li>C++</li></td></tr>
+						<tr><td><li>HTML/CSS</li>
+						</td><td><li>Java</li></td></tr><tr><td>
+						<li>Javascript</li></td><td>
+						<li>Php</li></td></tr><tr><td>
+						<li>Basics of Python</li></td><td>
+						<li>PostgreSql</li></td></tr></table>
+				<h3> 
+					
+				</div>
+							<div id="piechart"></div>
+				
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['Programming language', 'I enjoy'],
+  ['C', 6],
+  ['C++',4],
+  ['Java', 5],
+  ['javascript', 6],
+  ['PHP', 3]
+]);
+
+  // Optional; add a title and set the width and height of the chart
+  var options = {'title':'Language I love to work', 'width':359, 'height':200};
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
+}
+</script>
+
+<a src="https://github.com/sanu29"><img src="https://image.flaticon.com/icons/svg/25/25231.svg" height="70px" width="50px"></a>Github
+<a href="http://www.linkedin.com/in/sanu29"> <img src="https://i1.wp.com/www.owlishcommunications.com/thewisdomzone/wp-content/uploads/LINKEDIN-LOGO-2-Animated-Pulsating.gif?resize=300%2C300&ssl=1" class="linkk" height="50px" width="50px"></a>LinkedIn</h3>
+
+				</header>
+
+		 
+	</body>
+
+</html>
